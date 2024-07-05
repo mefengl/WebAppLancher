@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button'
 import { Icon } from '@iconify-icon/react'
 
 function App() {
@@ -9,20 +8,21 @@ function App() {
           className="flex size-24 flex-col items-center justify-center rounded-lg border border-gray-300 bg-white shadow-md transition hover:bg-gray-50"
           href="https://www.xiaohongshu.com/explore"
         >
-          <Icon icon="simple-icons:xiaohongshu" />
-          <span className="text-sm">小红书</span>
+          <Icon
+            icon="simple-icons:xiaohongshu"
+            width="52"
+          />
         </a>
         <a
           className="flex size-24 flex-col items-center justify-center rounded-lg border border-gray-300 bg-white shadow-md transition hover:bg-gray-50"
           href="https://www.douyin.com/follow"
         >
-          <Icon icon="simple-icons:tiktok" />
-          <span className="text-sm">抖音</span>
+          <Icon
+            icon="simple-icons:tiktok"
+            width="28"
+          />
         </a>
       </div>
-      <Button className="mt-4">
-        打开全部
-      </Button>
     </div>
   )
 }
