@@ -7,6 +7,8 @@ function App() {
         <a
           className="flex size-24 flex-col items-center justify-center rounded-lg border border-gray-300 bg-white shadow-md transition hover:bg-gray-50"
           href="https://www.xiaohongshu.com/explore"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           <Icon
             icon="simple-icons:xiaohongshu"
@@ -15,7 +17,9 @@ function App() {
         </a>
         <a
           className="flex size-24 flex-col items-center justify-center rounded-lg border border-gray-300 bg-white shadow-md transition hover:bg-gray-50"
-          href="https://www.douyin.com/follow"
+          href="https://www.douyin.com"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           <Icon
             icon="simple-icons:tiktok"
