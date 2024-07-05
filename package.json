@@ -1,9 +1,9 @@
 {
-  "name": "wxt-starter",
+  "name": "App 网页版启动器：小红书，抖音",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "manifest.json description",
+  "description": "比起这个插件，也许浏览器书签更好 :)",
   "scripts": {
     "dev": "wxt",
     "dev:firefox": "wxt -b firefox",
@@ -11,6 +11,7 @@
     "build:firefox": "wxt build -b firefox",
     "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
+    "submit": "wxt submit",
     "compile": "tsc --noEmit",
     "postinstall": "wxt prepare",
     "lint": "eslint .",
