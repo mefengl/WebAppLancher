@@ -26,6 +26,17 @@ function App() {
             width="28"
           />
         </a>
+        <a
+          className="flex size-24 flex-col items-center justify-center rounded-lg border border-gray-300 bg-white shadow-md transition hover:bg-gray-50"
+          href="https://2.taobao.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Icon
+            icon="fluent:food-fish-24-regular"
+            width="40"
+          />
+        </a>
       </div>
     </div>
   )
