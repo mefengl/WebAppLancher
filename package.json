@@ -1,7 +1,7 @@
 {
   "name": "App 网页版启动器：小红书，抖音，闲鱼",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "比起这个插件，也许浏览器书签更好 :)",
   "scripts": {
